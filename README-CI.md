@@ -1,5 +1,6 @@
-##Dockerfile
+## Dockerfile
 - For the project we are installing docker on the local machine and try to get it set up using a dockerfile using either apache or nginx. Using a dockerfile is like using a script and it can help run websites easier. The reason for this is because it is a much cleaner way to do things instead of having it everywhere it will be more neat and easier to read and understand. I ended up using ubuntu, Docker, and the webserver I ended up choosing would be apache. We also learned in this project in part 2 that connecting github to automate dockerhub is much more convientent through github workflow. The command git push activates as script which is the workflow to also build and push docker images to dockerhub so that everything is done with one command instead of multiple commands.
+
 ![picture](images/picture.png)
 
 - You install docker by updating it with the command `sudo apt update`. Then the command `sudo apt install docker.io`.
