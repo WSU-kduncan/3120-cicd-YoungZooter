@@ -1,0 +1,4 @@
+- id: redeploy
+  execute-command: "/home/ubuntu/3120-cicd-YoungZooter/restart.sh"
+  command-working-directory: "/var/webhook"
+
